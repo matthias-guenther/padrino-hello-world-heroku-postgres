@@ -63,5 +63,9 @@ module HelloWorldHerokuPostgres
     #     render 'errors/505'
     #   end
     #
+    get "/" do
+      user = Users.find(1)
+      "Hello #{user.name}\n Your email is: #{user.email}"
+    end
   end
 end

@@ -13,14 +13,14 @@
 #     :socket    => '/tmp/mysql.sock'
 #   }
 #
+
 ActiveRecord::Base.configurations[:development] = {
   :adapter   => 'postgresql',
-  :database  => 'hello_world_heroku_postgres_development',
-  :username  => 'root',
-  :password  => '',
-  :host      => 'localhost',
+  :database  => 'dev751q4jd401b',
+  :username  => 'yxkscmfxkhsvfd',
+  :password  => 'hnGMVRPWmBQ06Bi3ujqP21Orl4',
+  :host      => 'ec2-79-125-21-60.eu-west-1.compute.amazonaws.com',
   :port      => 5432
-
 }
 
 ActiveRecord::Base.configurations[:production] = {
